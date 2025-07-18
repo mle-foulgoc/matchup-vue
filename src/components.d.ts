@@ -13,5 +13,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SelectChamp: typeof import('./components/SelectChamp.vue')['default']
+    SpellList: typeof import('./components/SpellList.vue')['default']
+    Spells: typeof import('./components/Spells.vue')['default']
   }
 }
