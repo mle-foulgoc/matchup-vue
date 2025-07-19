@@ -34,7 +34,12 @@ watch(() => props.modelValue, (nv) => {
 });
 
 watch(selectedChampion, (nv) => {
-  emit('update:modelValue', nv);
+  // Vérifie si la valeur existe dans la liste des champions
+  if (champions.value.includes(nv)) {
+    emit('update:modelValue', nv);
+  } else {
+    emit('update:modelValue', ''); // Ou tu peux garder la dernière valeur valide
+  }
 });
 </script>
 

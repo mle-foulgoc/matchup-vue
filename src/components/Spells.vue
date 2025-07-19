@@ -1,7 +1,11 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="auto">
-      <SpellList :championName="monChampion" :spells="spellsMonChampion" />
+      <SpellList
+        :championName="monChampion"
+        :spells="spellsMonChampion"
+        :isMonChampion="true"
+      />
     </v-col>
     <v-col cols="auto">
       <SpellList
