@@ -71,9 +71,9 @@ function getSpellIcon(spell) {
   padding: 20px;
 }
 .spell-icon-img {
-  width: 64px;
-  height: 64px;
-  border-radius: 8px;
+  width: 82px;
+  height: 82px;
+  border-radius: 12px;
   border: 2px solid #444;
   object-fit: cover;
   margin-bottom: 4px;

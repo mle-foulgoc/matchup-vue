@@ -23,15 +23,15 @@
         />
       </div>
 
-      <div class="d-flex flex-1-1-0 pe-3 align-center" style="gap: 12px;">
-        <v-btn
+      <div class="d-flex flex-1-1-0 pe-3 align-center" style="gap: 12px">
+        <!-- <v-btn
           icon
           variant="text"
           @click="toggleTheme"
           :aria-label="isDark ? 'Activer le thème clair' : 'Activer le thème sombre'"
         >
           <v-icon>{{ isDark ? 'mdi-weather-sunny' : 'mdi-weather-night' }}</v-icon>
-        </v-btn>
+        </v-btn> -->
         <v-btn
           append-icon="mdi-chevron-right"
           class="ms-auto text-none"
@@ -48,8 +48,8 @@
 </template>
 
 <script lang="ts" setup>
-import { shallowRef } from 'vue';
-import { useTheme } from 'vuetify';
+import { shallowRef } from "vue";
+import { useTheme } from "vuetify";
 
 const drawer = shallowRef(false);
 const items = [
@@ -61,6 +61,6 @@ const items = [
 const theme = useTheme();
 const isDark = computed(() => theme.global.current.value.dark);
 function toggleTheme() {
-  theme.global.name.value = isDark.value ? 'light' : 'dark';
+  theme.global.name.value = isDark.value ? "light" : "dark";
 }
 </script>

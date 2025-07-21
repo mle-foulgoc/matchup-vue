@@ -1,7 +1,7 @@
 <template>
   <v-card class="spell-container" elevation="0" color="transparent">
     <h3 v-if="championName">{{ championName }}</h3>
-    <v-row  justify="center" no-gutters>
+    <v-row justify="center" no-gutters>
       <v-col
         v-for="(spell, index) in spells"
         :key="index"
@@ -15,9 +15,20 @@
               :alt="spell.name"
               class="spell-icon-img"
             />
-            <div class="spell-key d-flex align-center justify-center" style="gap: 6px;">
+            <div
+              class="spell-key d-flex align-center justify-center"
+              style="gap: 6px"
+            >
               <span>{{ spell.key }}</span>
-              <span v-if="spell.cooldown[0]" class="cooldown-burn">{{ spell.cooldown[0] }}</span>
+              <span v-if="spell.cooldown[0]" class="cooldown-burn">
+                {{ spell.cooldown[0] }}
+                <img
+                  src="@/assets/Icones/Cooldown_icon.png"
+                  alt="CD"
+                  width="12"
+                  style="vertical-align: middle; margin-left: 2px"
+                />
+              </span>
             </div>
           </div>
         </div>
@@ -31,6 +42,7 @@ const props = defineProps({
   championName: String,
   spells: Array,
 });
+
 function getSpellIcon(spell) {
   return `/img/spell/${spell.image.full}`;
 }
@@ -57,9 +69,11 @@ function getSpellIcon(spell) {
 .cooldown-burn {
   font-size: 0.95em;
   color: #888;
-  background: rgba(0,0,0,0.08);
+  background: rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   padding: 0 4px;
+  display: inline-flex;
+  align-items: center;
 }
 .spell-slot {
   margin-bottom: 8px;

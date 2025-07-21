@@ -1,0 +1,25 @@
+{
+  "items": ["1055", "223078", "226610"],
+  "videos": [
+    {
+      "name": "JAX vs AATROX (TOP)",
+      "url": "https://www.youtube.com/watch?v=0XVrm9SYf3s"
+    },
+    {
+      "name": "STOMP SA LANE AVEC JAX !",
+      "url": "https://www.youtube.com/watch?v=x7-fiZYZNoI"
+    },
+    {
+      "name": "3 HEURES DE PUR SLAYING SUR JAX !",
+      "url": "https://www.youtube.com/watch?v=QibtqJQAVeA"
+    }
+  ],
+  "infos": {
+    "paragraphes": [
+      "Jeu de jambes est une bonne option, sinon tempo mortel",
+      "Utiliser le E en reaction de l'auto passive d'Aatrox",
+      "Prendre des trades sans E, pour avoir le stun low HP et le finir",
+      "Bien crash les waves pour ne pas laisser de freeze"
+    ]
+  }
+}

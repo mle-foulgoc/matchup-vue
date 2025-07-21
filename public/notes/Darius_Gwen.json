@@ -1,0 +1,25 @@
+{
+  "items": ["1056", "224633", "223115"],
+  "videos": [
+    {
+      "name": "GWEN vs DARIUS (TOP)",
+      "url": "https://www.youtube.com/watch?v=FMWz-tq2Cvg"
+    },
+    {
+      "name": "STOMP SA LANE AVEC GWEN !",
+      "url": "https://www.youtube.com/watch?v=RNyg02RiRwo&t=2691s"
+    },
+    {
+      "name": "3H DE PUR SLAYING SUR GWEN",
+      "url": "https://www.youtube.com/watch?v=WYCrmoFpC4w&t=119s"
+    }
+  ],
+  "infos": {
+    "paragraphes": [
+      "Prendre TP Ignite ",
+      "attendre qu'un sort soit utilisé pour E+Q ",
+      "Plus fort a partir de 15min",
+      "Bien dodge les Q pour l'empecher de se heal"
+    ]
+  }
+}

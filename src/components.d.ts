@@ -11,10 +11,15 @@ declare module 'vue' {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     Avatar: typeof import('./components/Avatar.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    ItemAdvice: typeof import('./components/itemAdvice.vue')['default']
+    ItemsAdvice: typeof import('./components/itemsAdvice.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SelectChamp: typeof import('./components/SelectChamp.vue')['default']
     SpellList: typeof import('./components/SpellList.vue')['default']
     Spells: typeof import('./components/Spells.vue')['default']
+    StatsTable: typeof import('./components/StatsTable.vue')['default']
+    TimeLine: typeof import('./components/timeLine.vue')['default']
+    VideosList: typeof import('./components/videosList.vue')['default']
   }
 }
