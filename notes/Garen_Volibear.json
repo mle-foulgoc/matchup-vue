@@ -1,0 +1,25 @@
+{
+  "items": ["1054", "226631", "3142"],
+  "videos": [
+    {
+      "name": "GAREN vs VOLIBEAR (TOP)",
+      "url": "https://www.youtube.com/watch?v=LKFFK29Ekq8"
+    },
+    {
+      "name": "GAGNER SA LANE COMME STREY",
+      "url": "https://www.youtube.com/watch?v=NInPVb9zlF4&t=1106s"
+    },
+    {
+      "name": "3 HARDCOUNTERS DE GAREN",
+      "url": "https://www.youtube.com/shorts/z_NbYTkWJR0"
+    }
+  ],
+  "infos": {
+    "paragraphes": [
+      "Start E pour ne pas etre bloquer dans sa zone avec l'animation du Q",
+      "Trade : E + W et finir par Q",
+      "Le W permet de tank son combo",
+      "Tu peux proxy quand derriere"
+    ]
+  }
+}

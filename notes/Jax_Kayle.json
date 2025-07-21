@@ -1,0 +1,25 @@
+{
+  "items": ["1055", "223078", "226610"],
+  "videos": [
+    {
+      "name": "JAX vs KAYLE (TOP)",
+      "url": "https://www.youtube.com/watch?v=JVsTWgKUG_E"
+    },
+    {
+      "name": "STOMP SA LANE AVEC JAX !",
+      "url": "https://www.youtube.com/watch?v=x7-fiZYZNoI"
+    },
+    {
+      "name": "3 HEURES DE PUR SLAYING SUR JAX !",
+      "url": "https://www.youtube.com/watch?v=QibtqJQAVeA"
+    }
+  ],
+  "infos": {
+    "paragraphes": [
+      "niveau 1 attention au passif de kayle, surtout avec tempo mortel",
+      "Ne sourtout pas la laisser farm jusqu'au niveau 6",
+      "Dive en deux temps pour son R, courrir avec le E, reculer, puis redive avec W + R",
+      "Si pas de dive possible profiter du rebond pour creer un freeze"
+    ]
+  }
+}
